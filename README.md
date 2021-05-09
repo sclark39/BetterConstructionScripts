@@ -1,6 +1,6 @@
 # Better Construction Scripts for UE4
 
-Unreal's default Construction Script has differing behavior during Play in Editor than Packaged builds. In Packaged Builds, all Construction Scripts are executed at run-time, which can create large frame 1 spikes while loading a level if there are a lot of placed actors with construction script setup.
+Unreal's default Construction Script has differing behavior during Play in Editor than Packaged builds. In Packaged Builds, all Construction Scripts are executed at run-time, which can create large frame 1 spikes while loading a level if there are a lot of placed actors with custom construction script setup.
 
 This plugin adds two new construction script variants that can be used with Actors, and integrated easily into any other of actors as needed:
 - **CachedConstructionScript** - This reproduces the Play in Editor behavior in the packaged build, only running in editor for Placed Actors. In order for this to function properly, and values that the construction script changes must be non-transient and saved into the level data. If an actor with a CachedConstructionScript is spawned in fresh during runtime, the CachedConstructionScript will be run.
