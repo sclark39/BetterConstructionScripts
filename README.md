@@ -1,4 +1,4 @@
-# BetterConstructionScripts
+# Better Construction Scripts for UE4
 
 Unreal's default Construction Script has differing behavior during Play in Editor than Packaged builds. In Packaged Builds, all Construction Scripts are executed at run-time, which can create large frame 1 spikes while loading a level if there are a lot of placed actors with construction script setup.
 
