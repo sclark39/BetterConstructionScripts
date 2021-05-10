@@ -12,3 +12,6 @@ In addition, this also adds functionality for Construction Scripts on Components
 - **EditorOnlyConstructionScript** - Same as above.
 
 *Warning: Because of how these construction scripts are implemented, some care does need to be taken in how they are used. They can be powerful but lack the safeguarding of the default actor's Construction Scripts.*
+
+### Support My Work
+Check out my [Unreal Marketplace Plugins](https://www.unrealengine.com/marketplace/en-US/profile/Skyler+Clark)
