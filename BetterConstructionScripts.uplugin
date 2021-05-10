@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BetterConstructionScripts",
+	"Description": "Better options for Construction Scripts to control the amount of work done in packaged builds.",
+	"Category": "Other",
+	"CreatedBy": "Skyler Clark",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BetterConstructionScripts",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
