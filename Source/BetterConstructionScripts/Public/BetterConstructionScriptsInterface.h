@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Engine/EngineTypes.h"
+#include "UObject/Interface.h"
+#include "Engine/World.h"
 
 #include "BetterConstructionScriptsInterface.generated.h"
 
