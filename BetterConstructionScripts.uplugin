@@ -1,24 +1,31 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "BetterConstructionScripts",
-	"Description": "Better options for Construction Scripts to control the amount of work done in packaged builds.",
-	"Category": "Other",
-	"CreatedBy": "Skyler Clark",
-	"CreatedByURL": "",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "https://github.com/sclark39/BetterConstructionScripts",
-	"CanContainContent": false,
-	"IsBetaVersion": true,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "BetterConstructionScripts",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "BetterConstructionScripts",
+  "Description": "Better options for Construction Scripts to control the amount of work done in packaged builds.",
+  "Category": "Other",
+  "CreatedBy": "Skyler Clark",
+  "CreatedByURL": "http://skylerclark.com",
+  "DocsURL": "https://github.com/sclark39/BetterConstructionScripts",
+  "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f2c30b250a2e46d69ffb95d766ef9c07",
+  "SupportURL": "https://github.com/sclark39/BetterConstructionScripts",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "BetterConstructionScripts",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Win64",
+        "Win32",
+        "XboxOne",
+        "PS4",
+        "Switch"
+      ]
+    }
+  ]
 }
